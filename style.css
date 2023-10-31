@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body,html{
+ 
+}
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    padding:20px 10px;
+    height:auto;
+    background-color: aliceblue;
+}
+ul{
+    list-style: none;
+}
+.logo{
+    height:40px;
+}
+.navlinks ul{
+    display:flex;
+}
+.navlinks a{
+    text-decoration: none;
+    margin:auto 60px;
+    position:relative;
+    top:10px;
+    color:black;
+    font-size:4vmin;
+}
+.navlinks a:hover{
+    color:brown;
+    text-decoration: underline;
+}
+@media only screen and (max-width:800px){
+    .navlinks ul{
+        display: block;
+        margin:90px auto;
+    }
+    .desk li{
+       margin:30px auto;
+    }
+}
